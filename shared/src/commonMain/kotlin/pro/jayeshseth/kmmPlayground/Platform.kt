@@ -1,4 +1,4 @@
-package pro.jayeshseth.kmmtest
+package pro.jayeshseth.kmmPlayground
 
 interface Platform {
     val name: String

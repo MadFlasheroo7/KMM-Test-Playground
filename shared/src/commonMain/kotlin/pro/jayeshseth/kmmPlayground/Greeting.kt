@@ -1,4 +1,4 @@
-package pro.jayeshseth.kmmtest
+package pro.jayeshseth.kmmPlayground
 
 class Greeting {
     private val platform: Platform = getPlatform()

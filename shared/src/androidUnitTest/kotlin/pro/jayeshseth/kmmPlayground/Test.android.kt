@@ -1,4 +1,4 @@
-package pro.jayeshseth.kmmtest
+package pro.jayeshseth.kmmPlayground
 
 import org.junit.Assert.assertTrue
 import org.junit.Test

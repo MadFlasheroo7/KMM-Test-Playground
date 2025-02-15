@@ -1,4 +1,4 @@
-package pro.jayeshseth.kmmtest.android
+package pro.jayeshseth.kmmPlayground.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

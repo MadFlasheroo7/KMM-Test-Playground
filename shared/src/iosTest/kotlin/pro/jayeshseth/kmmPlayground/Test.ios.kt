@@ -1,4 +1,4 @@
-package pro.jayeshseth.kmmtest
+package pro.jayeshseth.kmmPlayground
 
 import kotlin.test.Test
 import kotlin.test.assertTrue
