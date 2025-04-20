@@ -131,3 +131,20 @@ room = { id = "androidx.room", version.ref = "room" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 
+[bundles]
+compose-multiplatform = [
+
+]
+compose-android = [
+
+]
+ktor-client = [
+
+]
+koin = [
+
+]
+voyager = [
+
+]
+icon = []

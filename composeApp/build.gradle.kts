@@ -5,10 +5,15 @@ import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
 plugins {
-    alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
+    alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.hotReload)
+    alias(libs.plugins.room)
+    alias(libs.plugins.kotlinx.serialization)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.apollo)
 }
 
 kotlin {
@@ -109,6 +114,10 @@ android {
 
 dependencies {
     debugImplementation(compose.uiTooling)
+}
+
+room {
+    schemaDirectory("$projectDir/schemas")
 }
 
 compose.desktop {
