@@ -4,6 +4,7 @@ This a testing playground for kmm or cmp, to test the working of below mentioned
 
 # Tasks
 - Migrate KMM to CMP - https://github.com/MadFlasheroo7/KMM-Test-Playground/pull/1
+- Convention Plugin [⚠️ **WIP**] - https://github.com/MadFlasheroo7/KMM-Test-Playground/tree/build-conventionPlugins
 
 # Tests
 - [x] Migrate KMM to CMP
